@@ -1,0 +1,40 @@
+digraph G{
+ edge[style=solid, len=2]
+ model = mds { 
+  node[shape=circle, style=filled]
+  A0_0[fillcolor="0 0.914 0.90" ,width=31.5357]
+  A1_0[fillcolor="0.05 0.914 0.90" ,width=7.82624]
+  A1_1[fillcolor="0.05 0.914 0.90" ,width=10.4523]
+  A2_0[fillcolor="0.1 0.914 0.90" ,width=5.72276]
+  A2_1[fillcolor="0.1 0.914 0.90" ,width=2.06155]
+  A3_0[fillcolor="0.15 0.914 0.90" ,width=4.71699]
+  A3_1[fillcolor="0.15 0.914 0.90" ,width=0.5]
+  A4_0[fillcolor="0.2 0.914 0.90" ,width=2.87228]
+  A5_0[fillcolor="0.25 0.914 0.90" ,width=2.12132]
+  A5_1[fillcolor="0.25 0.914 0.90" ,width=0.5]
+  A6_0[fillcolor="0.3 0.914 0.90" ,width=0.5]
+  A6_1[fillcolor="0.3 0.914 0.90" ,width=1.73205]
+  A7_0[fillcolor="0.35 0.914 0.90" ,width=0.5]
+  A7_1[fillcolor="0.35 0.914 0.90" ,width=0.5]
+  A7_2[fillcolor="0.35 0.914 0.90" ,width=0.866025]
+  A7_3[fillcolor="0.35 0.914 0.90" ,width=0.5]
+  A8_0[fillcolor="0.4 0.914 0.90" ,width=0.5]
+  A8_1[fillcolor="0.4 0.914 0.90" ,width=0.5]
+  A8_2[fillcolor="0.4 0.914 0.90" ,width=0.5]
+  A8_3[fillcolor="0.4 0.914 0.90" ,width=0.5]
+  A9_0[fillcolor="0.45 0.914 0.90" ,width=0.5]
+  A9_1[fillcolor="0.45 0.914 0.90" ,width=0.5]
+  A9_2[fillcolor="0.45 0.914 0.90" ,width=0.5]
+  A9_3[fillcolor="0.45 0.914 0.90" ,width=0.5]
+ }
+ A0_0 -> A1_1
+ A4_0 -> A5_0
+ A5_1 -> A6_0
+ A6_0 -> A7_0
+ A7_0 -> A8_0
+ A7_1 -> A8_1
+ A7_3 -> A8_3
+ A8_0 -> A9_0
+ A8_1 -> A9_2
+ A8_3 -> A9_3
+}
